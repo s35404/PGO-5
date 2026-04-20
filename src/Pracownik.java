@@ -33,7 +33,10 @@ public class Pracownik {
     }
     @Override
     public String toString() {
-        return "Pracownik{" + "idPracownika='" + idPracownika + '\'' + ", imie='" + imie + '\'' + ", nazwisko='" + nazwisko + '\'' + ", stawkaBazowa=" +  stawkaBazowa + '}';
+        return "Pracownik{" + "idPracownika='" + idPracownika +
+                '\'' + ", imie='" + imie +
+                '\'' + ", nazwisko='" + nazwisko +
+                '\'' + ", stawkaBazowa=" +  stawkaBazowa + '}';
 
     }
     @Override

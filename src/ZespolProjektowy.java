@@ -25,9 +25,9 @@ public class ZespolProjektowy {
         }
         return laczyKoszt;
     }
-    public Pracownik znajdzPoId(String idPojazdu) {
+    public Pracownik znajdzPoId(String idPracownika) {
         for(Pracownik pracownik : pracownicy){
-            if(pracownik.pobierzIdPracownika().equals(idPojazdu)){
+            if(pracownik.pobierzIdPracownika().equals(idPracownika)){
 
             }
         }
