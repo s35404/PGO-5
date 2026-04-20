@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         ZespolProjektowy zespol = new ZespolProjektowy("Campus App");
 
-        Pracownik p1 = new Programista("E-101", "Anna", "Maj", 12000.0, "Java", 4);
+        Pracownik p1 = new Programista("E-", "Anna", "Maj", 12000.0, "Java", 4);
         Pracownik p2 = new Tester("E-201", "Piotr", "Lis", 9800.0, true, 25);
         Pracownik p3 = new Programista("E-102", "Karol", "Wojcik", 11500.0, "Kotlin", 3);
 

@@ -1,4 +1,6 @@
 public class Programista {
-    private String idPracownika;
-    private String imie;
+  private String glownyJezyk;
+  private int liczbaRepozytoriow;
+
+
 }
