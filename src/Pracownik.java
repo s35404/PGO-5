@@ -1,3 +1,6 @@
+import java.util.Objects;
+
+
 public class Pracownik {
     private String idPracownika;
     private String imie;
@@ -25,8 +28,8 @@ public class Pracownik {
     public double obliczKosztMiesieczny() {
         return stawkaBazowa;
     }
-    public String pobierzidPracownika() {
-        return "Pojazd : " + idPracownika + "\nImie : " + imie + "\nNazwisko : " + nazwisko;
+    public String przedstawSie() {
+        return "ID Pracownika : " + idPracownika + "\nImie : " + imie + "\nNazwisko : " + nazwisko;
     }
     @Override
     public String toString() {
