@@ -26,7 +26,7 @@ public double obliczKosztMiesieczny() {
 }
 @Override
 public String przedstawSie() {
-      return "Pracownik: " + pobierzIdPracownika() + "\nImie: " + getImie() + "\nNazwisko: " + getNazwisko() + "\nGlowny Jezyk: " + getGlownyJezyk() + "\nLiczba Repozytoriow" + getLiczbaRepozytoriow();
+      return "Pracownik: " + pobierzIdPracownika() + "\nImie: " + getImie() + "\nNazwisko: " + getNazwisko() + "\nGlowny Jezyk: " + getGlownyJezyk() + "\nLiczba Repozytoriow: " + getLiczbaRepozytoriow();
 }
 
 public void wypiszTechnologie(){

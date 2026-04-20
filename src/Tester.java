@@ -26,7 +26,7 @@ public int getLiczbaScenariuszy(){
 }
 @Override
     public String przedstawSie() {
-        return "Pracownik: " + pobierzIdPracownika() + "\nImie: " + getImie() + "\nNazwisko: " + getNazwisko() + "\nCzy Automatyzujacy: " + getczyAutomatyzujacy() + "\nLiczba Scenariuszy" + getLiczbaScenariuszy();
+        return "Pracownik: " + pobierzIdPracownika() + "\nImie: " + getImie() + "\nNazwisko: " + getNazwisko() + "\nCzy Automatyzujacy: " + getczyAutomatyzujacy() + "\nLiczba Scenariuszy: " + getLiczbaScenariuszy();
     }
     public void uruchomRaportTestow() {
         if (czyAutomatyzujacy == true) {
